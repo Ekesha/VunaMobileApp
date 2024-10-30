@@ -1,0 +1,9 @@
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  background-color: #E8F0FE; /* Light blue background on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased shadow on hover */
+}

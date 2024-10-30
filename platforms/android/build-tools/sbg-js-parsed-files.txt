@@ -1,0 +1,14 @@
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/runtime.b4bf04cea3ac8df6954e.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/bundle.089809cdb149e2c57291.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/tns_modules/inspector_modules.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/bundle.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/runtime.089809cdb149e2c57291.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/runtime.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/runtime.cb7e22be15338ccba9a7.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/bundle.b4bf04cea3ac8df6954e.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/vendor.089809cdb149e2c57291.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/vendor.b4bf04cea3ac8df6954e.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/vendor.9f9032a0c7a141e4825e.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/runtime.9f9032a0c7a141e4825e.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/vendor.cb7e22be15338ccba9a7.hot-update.js
+/home/biop/Documents/workspace/VunaReactApp/platforms/android/app/src/main/assets/app/vendor.js

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.ns-dark {
+  background-color: #212121;
+  color: #FFFFFF;
+}

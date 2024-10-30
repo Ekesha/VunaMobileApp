@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <supports-screens
+11-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:5:2-9:33
+12        android:largeScreens="true"
+12-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+13        android:normalScreens="true"
+13-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:7:3-31
+14        android:smallScreens="true"
+14-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:6:3-30
+15        android:xlargeScreens="true" />
+15-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+16
+17    <uses-permission
+17-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:11:2-76
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:11:19-74
+19        android:maxSdkVersion="28" />
+19-->[:widgets-release:] /Users/alexmbolonzi/.gradle/caches/transforms-3/79ee2d2dd60ae6d6970d4e52398a9ef7/transformed/jetified-widgets-release/AndroidManifest.xml:11:9-35
+20    <uses-permission
+20-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:12:2-77
+21        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+21-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:12:19-75
+22        android:maxSdkVersion="28" />
+22-->[:widgets-release:] /Users/alexmbolonzi/.gradle/caches/transforms-3/79ee2d2dd60ae6d6970d4e52398a9ef7/transformed/jetified-widgets-release/AndroidManifest.xml:14:9-35
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:13:2-63
+23-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:13:19-61
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:14:2-75
+24-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:14:19-73
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26
+27    <application
+27-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:16:2-41:16
+28        android:name="com.tns.NativeScriptApplication"
+28-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:17:3-49
+29        android:allowBackup="true"
+29-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:18:3-29
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.8.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/7672d33d753edbfd17a7ac324e08edf4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+31        android:extractNativeLibs="false"
+32        android:hardwareAccelerated="true"
+32-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:22:3-37
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:19:3-37
+34        android:label="@string/app_name"
+34-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:20:3-35
+35        android:theme="@style/AppTheme" >
+35-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:21:3-34
+36        <activity
+36-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:24:3-39:14
+37            android:name="com.tns.NativeScriptActivity"
+37-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:25:4-47
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+38-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:27:4-120
+39            android:exported="true"
+39-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:31:4-27
+40            android:hardwareAccelerated="true"
+40-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:29:4-38
+41            android:label="@string/title_activity_kimera"
+41-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:26:4-49
+42            android:launchMode="singleTask"
+42-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:30:9-40
+43            android:theme="@style/LaunchScreenTheme" >
+43-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:28:4-44
+44            <meta-data
+44-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:33:4-87
+45                android:name="SET_THEME_ON_LAUNCH"
+45-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:33:15-49
+46                android:resource="@style/AppTheme" />
+46-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:33:50-84
+47
+48            <intent-filter>
+48-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:35:4-38:20
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:36:5-57
+49-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:36:13-54
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:37:5-65
+51-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:37:15-62
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.tns.ErrorReportActivity" />
+54-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:40:3-57
+54-->/Users/alexmbolonzi/ekesha-workspace/VunaReactApp/platforms/android/app/src/main/AndroidManifest.xml:40:13-55
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+58            android:authorities="org.nativescript.app.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/alexmbolonzi/.gradle/caches/transforms-3/c8482bc2fc833122a323859a7b47a5a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alexmbolonzi/.gradle/caches/transforms-3/6e3cf5a70fcc1979b98a5739a1f0fd6d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alexmbolonzi/.gradle/caches/transforms-3/6e3cf5a70fcc1979b98a5739a1f0fd6d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alexmbolonzi/.gradle/caches/transforms-3/6e3cf5a70fcc1979b98a5739a1f0fd6d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>
